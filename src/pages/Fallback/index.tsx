@@ -6,6 +6,12 @@ const Fallback = () => {
       <Typography variant="h3">
         Ooops, seems like you are trying to use widget with no parent page
       </Typography>
+      <Typography variant="h4">
+        Please check{' '}
+        <a href="https://github.com/Doc5696/dom_inspector/blob/master/README.md">
+          this page
+        </a>
+      </Typography>
     </Stack>
   )
 }
