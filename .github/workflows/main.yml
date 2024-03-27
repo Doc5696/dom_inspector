@@ -13,7 +13,7 @@ on:
       steps:
         - uses: actions/checkout@v4
 
-        - name: Install dependecies
+        - name: Install dependencies
           run: nmp install
 
         - name: Build application
