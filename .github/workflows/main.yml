@@ -7,19 +7,19 @@ on:
     branches: ["master"]
   workflow_dispatch:
 
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-        - name: Install dependencies
-          run: nmp install
+      - name: Install dependencies
+        run: nmp install
 
-        - name: Build application
-          run: npm run build:all
+      - name: Build application
+        run: npm run build:all
 
-        - name: Deploy to Github Pages
-          uses: JamesIves/github-pages-deploy-action@v4
-          with: 
-            folder: build
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with: 
+          folder: build
