@@ -69,5 +69,6 @@
   },
   "pre-commit": [
     "lint-tsc"
-  ]
+  ],
+  "homepage": "https://doc5696.github.io/dom_inspector/"
 }
