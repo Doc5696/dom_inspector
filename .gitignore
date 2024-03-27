@@ -9,4 +9,5 @@
 .eslintcache
 
 npm-debug.log*
+tsconfig.tsbuildinfo*
 
