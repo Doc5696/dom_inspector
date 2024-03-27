@@ -4,6 +4,9 @@
 # misc
 .DS_Store
 
+# build
+/build
+
 # cache
 /.parcel-cache
 .eslintcache

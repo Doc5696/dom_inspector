@@ -35,7 +35,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:widget": "parcel build src/inspector_widget.js src/index.tsx --dist-dir build/widget --no-source-maps --no-cache",
+    "build:widget": "parcel build src/inspector_widget.js src/index.tsx --dist-dir build --no-source-maps --no-cache",
     "build:all": "npm run build && npm run build:widget",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
